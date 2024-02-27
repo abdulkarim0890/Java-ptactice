@@ -90,24 +90,24 @@
   //  console.log("dono se dhulai")
 //}
 
-var a = +prompt("enter english marks")
-var b = +prompt("enter urdu marks")
-var c = +prompt("enter islamiat marks")
-var d = +prompt("enter maths marks")
-var e = +prompt("enter sindhi marks")
-console.log(a,b,c,d,e)
-console.log((a + b + c + d + e ) /500 *100)
+//var a = +prompt("enter english marks")
+//var b = +prompt("enter urdu marks")
+//var c = +prompt("enter islamiat marks")
+//var d = +prompt("enter maths marks")
+//var e = +prompt("enter sindhi marks")
+//console.log(a,b,c,d,e)
+//console.log((a + b + c + d + e ) /500 *100)
 
-var total =((a + b + c + d + e ) /500 *100)
-if(total >= 80){
-console.log("A1 Grade")
-}else if(total >= 70){
-  console.log("A Grade")
-}else if(total >= 60){
-  console.log("B Grade")
-}else if(total >= 50){
-  console.log("C Grade")
-}
+//var total =((a + b + c + d + e ) /500 *100)
+//if(total >= 80){
+//console.log("A1 Grade")
+//}else if(total >= 70){
+  //console.log("A Grade")
+//}else if(total >= 60){
+  //console.log("B Grade")
+//}else if(total >= 50){
+  //console.log("C Grade")
+//}
 
 //var a="10"
 //if(a===10){
@@ -143,11 +143,20 @@ console.log("A1 Grade")
 //students[6] = "ahmed"
 //console.log(students)
 
-//var students =["zaid","haris","fazal"]
+var students =["zaid","haris","fazal","Hamza","asad"]
 //console.log(students[1])
 //students[6] = "ahmed"
 //students.push("abu bakar")
 //students.pop()
 //students.unshift("abdullah")
 //students.shift()
+//var b = students.slice(1,3)
 //console.log(students)
+//console.log(b)
+//var b = students.splice(1,2)
+//console.log(students)
+//console.log(b)
+//students.splice(1,1,"faraz","jawed")
+//students.splice(1,0,"faraz","jawed")
+
+console.log(students)
